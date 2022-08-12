@@ -1,0 +1,19 @@
+.sidebarVideos{
+margin-left: 25px;
+}
+.sidebarVideo{
+    margin-top: 5px;
+    display: flex;
+}
+.content{
+    padding: 5px 10px;
+    display: flex;
+    justify-items: center;
+    width: 200px;
+}
+img{
+    width: 200px;
+    height: 120px;
+    object-fit:fill;
+}
+

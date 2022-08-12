@@ -1,0 +1,100 @@
+
+
+.sidebar{
+  flex: 0.02;
+}
+
+
+.sidebar hr{
+  height: 2px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+                                    /* Active */
+.sidebar .active{
+  flex: 0.12 ;
+}
+.sidebarRow_active {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  padding: 8px 20px;
+}
+
+.title_active{
+  flex: 1;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.sidebarRow_active:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+.sidebarRow_active:hover .icon_active{
+  color: red;
+}
+.icon_active{
+  color: gray;
+}
+.sidebarRow_active:hover .title_active{
+  font-weight:700;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* .title_active{
+  flex: 1;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 500;
+} */
+
+
+.sidebarRow{
+display: flex;
+flex-direction:column;
+align-items: center;
+padding: 5px 3px;
+}
+.sidebarRow:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.title{
+font-size: 10px;
+height: 25px;
+font-weight: 700;
+}
+
+
+
+.sidebarRow:hover .sidebarRow__icon{
+  color: red;
+}
+.sidebarRow:hover .title{
+font-weight:800;
+}
+.sidebarRow__icon{
+  color: gray;
+}
+/* .sidebarRow.selected{
+  background-color: lightgray;
+}
+.sidebarRow.selected .sidebarRow__icon{
+  color: red;
+} */
