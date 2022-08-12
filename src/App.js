@@ -36,13 +36,6 @@ function App() {
   </div>  
 
 </Router>
-
-
-     /* <Header />
-     <div className='app_page' >
-     <Sidebar />
-     <RecomandedVideos />
-     </div> */
   
     
   );
