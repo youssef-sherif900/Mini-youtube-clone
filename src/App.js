@@ -28,7 +28,7 @@ function App() {
   <div className='app_page' >
   <Sidebar xpanded={expand} />
   <Routes>
-     <Route path='/' element={<RecomandedVideos />} />
+     <Route path='/Mini-youtube-clone' element={<RecomandedVideos />} />
      <Route path='search/:searchTerm' element={<SearchPage />} />
      <Route path='video/:searchTerm' element={<Video/>} />
 
