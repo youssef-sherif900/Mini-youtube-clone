@@ -21,8 +21,8 @@ function Video(props) {
  let videoId=str.substring(7);
 
     const opts = {
-        height: '700', 
-        width: '1300',
+        height: '480', 
+        width: '850',
         playerVars: {
           // https://developers.google.com/youtube/player_parameters
           autoplay: 1,
